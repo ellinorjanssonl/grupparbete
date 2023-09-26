@@ -1,0 +1,259 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body{
+    background-color: #ffffff;
+}
+    
+.menu {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+ }
+.menu ul li { 
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+ }
+ .menu a{
+    font-weight: 700;
+    text-decoration:none;
+    color: #000000;
+    font-size: 15px;
+    justify-content: space-between;
+ }
+ .menu a:hover{
+    color: #000000;
+    transition: 0.4s; 
+    text-decoration:underline; 
+ }
+ .header {
+    display: grid;
+    position:sticky;
+    padding: 11%;
+    top: 0;
+    background-image: url(foton/backround.jpg);
+    background-size: 100%;
+    opacity: 0.8;}
+
+.header:hover{
+    content: "";
+    opacity: 100%;
+ }
+
+ h1 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #f4f4f4;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    font-weight:500;
+ }
+
+.logo img{
+    width: 3%;
+    display:flex;
+ }
+.text h1{
+    color:#000000;
+    text-align: center;
+    display: grid;
+    padding-bottom: 3%;
+    margin-top: 3%;
+  }
+
+.text p{
+    color:#000000;
+    font-size: 12px;
+    text-align: center;
+    display: grid;
+    padding-bottom: 3%;
+    padding-top: 3%;
+ }
+
+h2{
+    color:#000000;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    display: grid;
+    padding-bottom: 1%;}
+    
+ .box3 a{
+    color:#000000;
+    font-size: 10px;
+    text-align: center;
+    display: grid;
+    margin-top: 20%;
+ }
+
+.content a{
+    text-decoration: none;
+    color: #241d1d;
+    font-size: 15px;
+ }
+.content a:hover{
+    color: #ffffff;
+}
+.content {
+    width: 100%;
+    display: grid; 
+    grid-gap: 5px; 
+    padding-top: 3%;
+    background-color: #ffffff;
+    text-align: center;
+}
+.box1 p{
+    font-size: 16px;
+    text-align: center;
+    display: grid;
+    padding-bottom: 3%;
+    color: #000000;
+    padding-top: 3%;
+}
+.box1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+   
+}
+.box1 img {
+    width: 100%;
+    align-content: flex-start;
+}
+.text1 {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    display: block;
+    padding-bottom: 3%;
+    color: #000000;
+}
+.box2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;}
+
+.box2 img {
+    width: 100%;
+    height: 50vh;
+    padding-top: 3%;
+    max-width: 100%;
+    align-content: flex-start;
+}
+.box2 img:hover{
+    transform: scale(1.7);
+    transition: 0.4s;
+}
+.fordon ul {
+    padding-top:10% ;
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Dela upp i 3 kolumner med lika stor bredd */
+    grid-gap: 70px 20px;
+    list-style: none; 
+    
+  }
+  .fordon li {
+    float: left;
+    width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
+  }
+  
+  .fordon img {
+    float: left;
+    width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
+    height: auto; /* Behåll bildens proportioner */
+  }
+  .fordon li:hover{
+    transform: scale(1.9);
+    transition: 0.3s;
+  }
+
+ .text2 { 
+    margin-right: 5%;
+    padding-top: 7%;
+    display: grid;
+    float: right;
+    width: 40%;
+    font-size: 11px;
+    text-align: justify;
+    color: #ffffff;
+ }
+
+ .text2 p {   
+  border: 1px solid #000000;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 20%;
+  background: #46464d;
+  padding: 11%;
+  color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #241d1d;
+    font-size: 15px;
+    display: grid;
+    align-self: center;
+ }
+
+ .contactform {
+    background-size: cover;
+    margin-top: 5%;
+    margin-left: 10%;
+    float: left; /* Centrera horisontellt */
+    height: 100vh; /* Hela höjden på visningsområdet */
+    text-align: left; /* Centrera texten horisontellt */ /* Maximal bredd för formuläret */
+    width: 40%;
+  }
+  
+  #contactpic img{
+    margin-top: 5%;
+    margin-right: 10%;
+    float: right;
+    width: 40%;
+    height: 75vh;
+    max-width: 40%;
+    align-content: flex-start;
+    opacity: 0.8;
+  }
+  
+  label,
+  input,
+  textarea {
+    display: block; /* Göra elementen till block för att de ska staplas vertikalt */
+    margin-bottom: 15px; /* Lägg till lite mellanrum mellan fälten */
+    color: #000000;
+    font-size: 13px;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  textarea {
+    width: 60%; 
+    padding: 10px;
+    background-color: #c0c0c0;
+    border: 1px solid #000000;
+  }
+  
+  input[type="submit"] {
+    background-color: #c6c6c6;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #414141;
+  }
+  
