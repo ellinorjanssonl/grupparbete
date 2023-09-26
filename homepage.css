@@ -215,14 +215,17 @@ a {
   }
   
   #contactpic img{
-    margin-top: 5%;
+    box-shadow: #3d3b3b 5px 5px 5px 5px;
+    border: 2px solid #3a3a3a;
+    margin-top: 7%;
+    border-radius: 20%;
     margin-right: 10%;
     float: right;
     width: 40%;
     height: 75vh;
     max-width: 40%;
     align-content: flex-start;
-    opacity: 0.8;
+    opacity: 0.9;
   }
   
   label,
@@ -231,22 +234,23 @@ a {
     display: block; /* Göra elementen till block för att de ska staplas vertikalt */
     margin-bottom: 15px; /* Lägg till lite mellanrum mellan fälten */
     color: #000000;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 900;
     text-align: left;
   }
   
   input[type="text"],
   input[type="tel"],
   textarea {
+    border: 2px solid #3a3a3a;
     width: 60%; 
     padding: 10px;
-    background-color: #c0c0c0;
-    border: 1px solid #000000;
+    background-color: #dedede;
   }
   
   input[type="submit"] {
-    background-color: #c6c6c6;
-    border: 1px solid #000000;
+    background-color: #dedede;
+    border: 2px solid #3a3a3a;
     color: rgb(0, 0, 0);
     width: 50%;
     padding: 10px 20px;
@@ -254,6 +258,6 @@ a {
   }
   
   input[type="submit"]:hover {
-    background-color: #414141;
+    background-color: #606060;
   }
   
