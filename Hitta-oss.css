@@ -35,6 +35,6 @@ iframe {
   left: 0;
   right: 0;
   bottom: 0;
-  border: 2px solid #000; /* Justera tjocklek och färg efter dina önskemål */
+  border: 2px solid #000;
   box-sizing: border-box;
 }
