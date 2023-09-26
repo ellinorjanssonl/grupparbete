@@ -1,0 +1,40 @@
+h1 {
+  margin: 1%;
+  background: transparent;
+}
+.öppet-tider {
+  transform: translateX(300px);
+}
+
+h4 {
+  font-size: 30px;
+  padding: 6px;
+}
+.opening {
+  border: 1px solid black;
+  width: 20%;
+  padding: 6px;
+  transform: translateX(900px);
+}
+iframe {
+  border: 1px solid black;
+}
+.google-maps-container {
+  position: relative;
+}
+
+.google-maps {
+  width: 600px;
+  height: 450px;
+}
+
+.google-maps-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #000; /* Justera tjocklek och färg efter dina önskemål */
+  box-sizing: border-box;
+}
