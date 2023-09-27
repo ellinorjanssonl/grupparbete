@@ -1,68 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="homepage.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <title>homepage</title>  
-    <style> 
-    #färg {
-        background-color: #787878;
-    }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <!-- minimerad CSS, dvs. utan radbrytningar, kommentarer o.dyl. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Bootstraps egen JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="homepage.css">
+  <style> 
+  #färg, .menu {
+      background-color: #787878;
+  }
+  </style>
+  <!-- Fonter & Ikoner-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <!-- Page-Ikon -->
+  <link rel="icon" href="foton/audi.png" type="image/vnd.microsoft.icon" />
+  <title>Contactpage</title>  
 </head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<!-- Bootstraps egen JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <body id="färg"> 
- <section>
-   <div class="menu">
-    <nav>
-      <ul>
-         <li><img id="logo" src="foton/audi.png" alt="Audi-logan"></li>
-         <li><a href="homepage.html">Hem</a></li>
-         <li><a href="Hitta-oss.html">Hitta Hit</a></li>
-         <li><a href="contact.html">Kontakt</a></li>
-         <li><a href="products.html">Produkter</a></li>
-      </ul>
-     </nav>
-     </div>
+  <section>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><img id="logo" src="foton/audi.png" alt="Audi-logan"></li>
+          <li><a href="homepage.html">Hem</a></li>
+          <li><a href="Hitta-oss.html">Hitta Hit</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="products.html">Produkter</a></li>
+        </ul>
+      </nav>
     </div>
-<header>
-    </div>
- </header>
- <section>
-    <main>
-        <div class="contactform">
-      <form action="process_contact.php" method="POST">
-        <label for="name">Namn:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="address">Adress:</label>
-        <input type="text" id="address" name="address">
-        
-        <label for="phone">Telefonnummer:</label>
-        <input type="tel" id="phone" name="phone">
-        
-        <label for="comment">Kommentar:</label>
-        <textarea id="comment" name="comment" rows="4"></textarea>
-        
-        <input type="submit" value="Skicka">
-    </div>
-    <div>
-        <div id="contactpic">
-        <img src="foton/kontakta.jpg" alt="details">
-        </div>
-    </div>
-      </form>
-    </main>
   </section>
+
+ <!--  Behövs den här? -->
+  <!-- <header>
+      </div>
+  </header> -->
+  <main>
+      <div class="contactform">
+        <form action="process_contact.php" method="POST">
+          <label for="name">Namn:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="address">Adress:</label>
+          <input type="text" id="address" name="address">
+          
+          <label for="phone">Telefonnummer:</label>
+          <input type="tel" id="phone" name="phone">
+          
+          <label for="comment">Kommentar:</label>
+          <textarea id="comment" name="comment" rows="4"></textarea>
+          
+          <input type="submit" value="Skicka">
+        </form>
+      </div>
+
+      <!-- Varför är det en div i en div? -->
+      <div>
+        <div id="contactpic">
+          <img src="foton/kontakta.jpg" alt="details">
+        </div>
+      </div>
+  </main>
+    
 </body>
 </html>
