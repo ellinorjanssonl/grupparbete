@@ -209,7 +209,6 @@ a {
   align-self: center;
 }
 
-<<<<<<< HEAD
  .contactform {
     background-size: cover;
     margin-top: 5%;
@@ -270,7 +269,6 @@ a {
   }
 
   /* Footer */
-=======
 .contactform {
   background-size: cover;
   margin-top: 5%;
@@ -330,14 +328,12 @@ input[type="submit"]:hover {
   background-color: #606060;
 }
 /*
->>>>>>> 55d9019e7351f29797589473a3c0d967b3a0b63c
   footer{
     display: flex;
     background-color: #f4f4f4;
     width: 100%;
     padding: 1%;
   }
-<<<<<<< HEAD
 
   #kontakt{
     border-right: black 1px solid;
@@ -418,7 +414,6 @@ input[type="submit"]:hover {
     }
     
    }
-=======
   */
 
 @media screen and (max-width: 650px) {
@@ -448,4 +443,3 @@ input[type="submit"]:hover {
     padding: 3%;
   }
 }
->>>>>>> 55d9019e7351f29797589473a3c0d967b3a0b63c
