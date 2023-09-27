@@ -12,7 +12,8 @@ body {
 .menu {
   background-color: rgb(255, 255, 255);
   text-align: center;
-  display: flex;
+  display: flex-box;
+  margin-top: 1%
 }
 .menu ul li {
   list-style: none;
@@ -31,6 +32,13 @@ body {
   transition: 0.4s;
   text-decoration: underline;
 }
+
+#logo  {
+  width: 50px;
+  display: flex-box;
+
+}
+
 .header {
   display: grid;
   position: sticky;
@@ -38,12 +46,7 @@ body {
   top: 0;
   background-image: url(foton/backround.jpg);
   background-size: 100%;
-  opacity: 0.8;
-}
-
-.header:hover {
-  content: "";
-  opacity: 100%;
+  opacity: 0.9;
 }
 
 h1 {
@@ -56,10 +59,6 @@ h1 {
   font-weight: 500;
 }
 
-.logo img {
-  width: 3%;
-  display: flex;
-}
 .text h1 {
   color: #000000;
   text-align: center;
@@ -184,6 +183,7 @@ h2 {
 .text2 {
   margin-right: 5%;
   padding-top: 7%;
+  padding-bottom: 3%;
   display: grid;
   float: right;
   width: 40%;
@@ -267,14 +267,65 @@ a {
   input[type="submit"]:hover {
     background-color: #606060;
   }
-/*
+
+  /* Footer */
   footer{
-    display: grid;
-    background-color: #8f8f8f;
+    display: flex;
+    background-color: #f4f4f4;
     width: 100%;
+    padding: 1%;
   }
-  */
-  
+
+  #kontakt{
+    border-right: black 1px solid;
+    width: 50%;
+  }
+
+  .ring-skriv-hitta{
+    padding: 1%;
+    font-size: xx-small;
+    font-family: 'Breilga', sans-serif; /* FUNKAR EJ MEN MÅSTE ÄNDRAS*/
+    margin-left: 15%;
+  }
+
+ 
+  .button-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #3a3a3a;
+    color: #fff; 
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; 
+}
+
+.button-link:active {
+  background-color: #ff0000; 
+  color: #fff; 
+}
+
+.button-link:hover {
+  background-color: #ff0000; 
+  color: #fff; 
+}
+ 
+  #sociala-medier{
+    display: flex;
+    margin-left: 15%;
+    gap: 10px;
+  }
+
+  /* Hover-effekt - funkar ej än */
+  .my-icon {
+    color: #000000; 
+    transition: color 0.3s; 
+}
+.my-icon:hover {
+    color: #ff0000; 
+}
+ 
+
+ /* MediaQuary */
 @media screen and (max-width: 650px)
    {
     .contactform {
