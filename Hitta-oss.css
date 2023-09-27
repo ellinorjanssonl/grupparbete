@@ -2,39 +2,36 @@ h1 {
   margin: 1%;
   background: transparent;
 }
+p {
+  text-align: center;
+}
 .öppet-tider {
-  transform: translateX(300px);
+  text-align: center;
 }
 
-h4 {
-  font-size: 30px;
-  padding: 6px;
+h2 {
+  font-size: 20px;
 }
 .opening {
-  border: 1px solid black;
-  width: 20%;
-  padding: 6px;
-  transform: translateX(900px);
+  text-align: center;
+  margin-bottom: 6%;
 }
 iframe {
   border: 1px solid black;
-}
-.google-maps-container {
-  position: relative;
 }
 
 .google-maps {
   width: 600px;
   height: 450px;
+  margin-left: 25%;
+  border: 2px solid black;
+  max-width: 50%;
 }
 
-.google-maps-container::before {
-  content: "";
-  position: absolute;
+.logga img {
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 2px solid #000;
-  box-sizing: border-box;
+  opacity: 0.8;
+  width: 99vw;
+  height: 40vh;
 }
