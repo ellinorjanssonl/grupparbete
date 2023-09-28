@@ -15,12 +15,26 @@
     <script src="https://kit.fontawesome.com/a3efb24e9b.js" crossorigin="anonymous"></script>
     <!-- Page-Ikon -->
     <link rel="icon" href="foton/audi.png" type="image/vnd.microsoft.icon" />
-    <title>kontakt</title>  
+    
+    <!-- Valt att göra en egen style här för aatt det är det är unikt för den här sidan  --> 
     <style> 
     #färg {
         background-color: #787878;
     }
+    #kontakt{
+        background-color: #ffffff;
+    }
+    .ring-skriv-hitta i span{
+        color:#787878 ;
+    }
+    .my-icon {
+        color: #787878;
+    }
+    .my-icon:hover {
+        color:#3a3a3a;
+    }
     </style>
+    <title>Kontakt</title>
 </head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <!-- jQuery -->
@@ -72,31 +86,39 @@
       </form>
     </section>
     </main>
-  
-  <footer>
-    <div id="kontakt">
-        <div>
-            <div class="ring-skriv-hitta">
-                <i class="fa-solid fa-phone fa-2xl" style="color: #000000;"> Telefon nummer: 08-503 336 00 </i>
+    
+    <footer>
+        <div id="kontakt">
+            <div id="socialt">
+                <!-- Har span på texten för att kunna ändra font-family -->
+                <div class="ring-skriv-hitta">
+                    <i class="fa-solid fa-phone">  <span>Telefon nummer: 08-503 336 00 </span></i>
+                </div>
+                <div class="ring-skriv-hitta">
+                    <i class="fa-regular fa-envelope"> <span>Kontakta oss:</span> <a class="button-link"  href="contact.html">Här</a></i>
+                </div>
+                <div class="ring-skriv-hitta">
+                    <i class="fa-solid fa-location-dot"> <span>Adress:</span> <a class="button-link" href="Hitta-oss.html">Här hittar du oss</a></i>
+                </div>
             </div>
-            <div class="ring-skriv-hitta">
-                <i class="fa-regular fa-envelope fa-2xl" style="color: #000000;"> Kontakta oss: <a class="button-link"  href="contact.html">Här</a></i>
-            </div>
-            <div class="ring-skriv-hitta">
-                <i class="fa-solid fa-location-dot fa-2xl" style="color: #000000;"> Adress: <a class="button-link" href="Hitta-oss.html">Här hittar du oss</a></i>
-            </div>
-        </div>
 
-        <div id="sociala-medier">
-            <a href="https://sv-se.facebook.com/Audisverige/" target="_blank"><i class="fa-brands fa-facebook fa-2xl my-icon" style="color: #000000;"></i></a>
-            <a href="https://www.instagram.com/audisverige/" target="_blank"><i class="fa-brands fa-instagram fa-2xl my-icon" style="color: #000000;"></i></a>
-            <a href="https://twitter.com/AudiOfficial" target="_blank"><i class="fa-brands fa-x-twitter fa-2xl my-icon" style="color: #000000;"></i></a>
-            <a href="https://se.linkedin.com/company/audi-sverige" target="_blank"><i class="fa-brands fa-linkedin fa-2xl my-icon" style="color: #000000;"></i></a>
-            <a href="https://www.youtube.com/audi" target="_blank"><i class="fa-brands fa-youtube fa-2xl my-icon" style="color: #000000;"></i></a>
-            <a href="https://en.wikipedia.org/wiki/Audi" target="_blank"><i class="fa-brands fa-wikipedia-w fa-2xl my-icon" style="color: #000000;"></i></a>
+            <div id="sociala-medier">
+                <a href="https://sv-se.facebook.com/Audisverige/" target="_blank"><i class="fa-brands fa-facebook fa-2xl my-icon"></i></a>
+
+                <a href="https://www.instagram.com/audisverige/" target="_blank"><i class="fa-brands fa-instagram fa-2xl my-icon"></i></a>
+
+                <a href="https://twitter.com/AudiOfficial" target="_blank"><i class="fa-brands fa-x-twitter fa-2xl my-icon"></i></a>
+
+                <a href="https://se.linkedin.com/company/audi-sverige" target="_blank"><i class="fa-brands fa-linkedin fa-2xl my-icon"></i></a>
+
+                <a href="https://www.youtube.com/audi" target="_blank"><i class="fa-brands fa-youtube fa-2xl my-icon"></i></a>
+
+                <a href="https://en.wikipedia.org/wiki/Audi" target="_blank"><i class="fa-brands fa-wikipedia-w fa-2xl my-icon"></i></a>
+            </div>
         </div>
-    </div>
-</footer>  
+   </footer>  
+
+
 
 </body>
 </html>

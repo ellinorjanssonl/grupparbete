@@ -332,75 +332,38 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #606060;
 }
-<<<<<<< HEAD
 
 /* footer */
 #kontakt{
   display: flex;
   background-color: #f4f4f4;
   width: 100%;
-  height: 20vh;
-  
-  border: red 2px solid;
+  height: 25vh;
+  padding: 1%;
 } 
 #socialt{
-  /* display: flexbox; */
   width: 50%;
-  border: black 1px solid;
-  border: green 2px solid;
+  border-right: black 1px solid;
 }
 .ring-skriv-hitta{
   padding: 1%;
   margin-left: 15%;
 }
+.ring-skriv-hitta i span {
+  font-family: 'Breilga', sans-serif;
+}
 .button-link {
   display: inline-block;
-  padding: 10px 15px;
-  background-color: #3a3a3a;
-  color: #fff; 
+  padding: 2px 2px;
+  border: 1px #3a3a3a solid;
+  color: #606060; 
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px; 
-=======
-/*
-  footer{
-    display: flex;
-    background-color: #f4f4f4;
-    width: 100%;
-    padding: 1%;
-    
-  }
-
-  #kontakt{
-    border-right: black 1px solid;
-    width: 50%;
-  }
-
-  .ring-skriv-hitta{
-    padding: 1%;
-    font-size: xx-small;
-    font-family: 'Breilga', sans-serif; /* FUNKAR EJ MEN MÅSTE ÄNDRAS*/
-    margin-left: 15%;
-  }
-
- 
-  .button-link {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #3a3a3a;
-    color: #fff; 
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px; 
->>>>>>> 62333560e1bb27d08fab19ecf192575af7195fad
-}
-.button-link:active {
-  background-color: #ff0000; 
-  color: #fff; 
 }
 .button-link:hover {
-  background-color: #ff0000; 
+  background-color: gray; 
   color: #fff; 
+  text-decoration: none;
 }
 
 #sociala-medier{
@@ -408,16 +371,18 @@ input[type="submit"]:hover {
   width: 50%;
   gap: 10px;
   justify-content: center;
-  border: purple 2px solid;
   text-align: center;  
 }
 #sociala-medier a {
   text-decoration: none; 
 }
 .my-icon {
-  /* font-size: 2em; */ /* ikonstorlek */
+  color: #000000; 
+  transition: color 0.3s; 
 }
-
+.my-icon:hover {
+  color:gray; 
+}
 
  /* MediaQuary */
 @media screen and (max-width: 650px)
@@ -449,10 +414,6 @@ input[type="submit"]:hover {
     }
     
    }
-<<<<<<< HEAD
-=======
-  */
->>>>>>> 62333560e1bb27d08fab19ecf192575af7195fad
 
 @media screen and (max-width: 650px) {
   .contactform {
