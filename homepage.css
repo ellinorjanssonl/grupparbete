@@ -353,6 +353,12 @@ input[type="submit"]:hover {
     margin-left: 15%;
   }
 
+  #footerkontaktsida {
+    display: flex;
+    width: 100%;
+    justify-content:start;
+  }
+
  
   .button-link {
     display: inline-block;
