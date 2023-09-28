@@ -1,27 +1,30 @@
-h1 {
-  margin: 1%;
-  background: transparent;
-}
-h4 {
-  text-align: center;
-}
-p {
-  text-align: center;
-  margin: 6px;
-}
 .öppet-tider {
   text-align: center;
 }
 
-h2 {
-  font-size: 20px;
-}
 .opening {
   text-align: center;
   margin-bottom: 6%;
 }
-iframe {
-  border: 1px solid black;
+
+.logga img {
+  position: sticky;
+  top: 0;
+  opacity: 0.8;
+  width: 100vw;
+  height: 40vh;
+}
+
+.öppet-hitta {
+  margin: 1%;
+  background: transparent;
+}
+#var {
+  text-align: center;
+}
+#p {
+  text-align: center;
+  margin: 6px;
 }
 
 .google-maps {
@@ -33,10 +36,9 @@ iframe {
   max-width: 50%;
 }
 
-.logga img {
-  position: sticky;
-  top: 0;
-  opacity: 0.8;
-  width: 100vw;
-  height: 40vh;
+iframe {
+  border: 1px solid black;
 }
+
+
+
