@@ -332,67 +332,59 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #606060;
 }
-<<<<<<< HEAD
 
 /* footer */
-=======
-/*
->>>>>>> 63a6cf3c022b94c1c272926da347d4e2bc706a74
-  footer{
-    display: flex;
-    background-color: #f4f4f4;
-    width: 100%;
-    padding: 1%;
-  }
-
-  #kontakt{
-    border-right: black 1px solid;
-    width: 50%;
-  }
-
-  .ring-skriv-hitta{
-    padding: 1%;
-    font-size: xx-small;
-    font-family: 'Breilga', sans-serif; /* FUNKAR EJ MEN MÅSTE ÄNDRAS*/
-    margin-left: 15%;
-  }
-
- 
-  .button-link {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #3a3a3a;
-    color: #fff; 
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px; 
+#kontakt{
+  display: flex;
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 20vh;
+  
+  border: red 2px solid;
+} 
+#socialt{
+  /* display: flexbox; */
+  width: 50%;
+  border: black 1px solid;
+  border: green 2px solid;
 }
-
+.ring-skriv-hitta{
+  padding: 1%;
+  margin-left: 15%;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #3a3a3a;
+  color: #fff; 
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px; 
+}
 .button-link:active {
   background-color: #ff0000; 
   color: #fff; 
 }
-
 .button-link:hover {
   background-color: #ff0000; 
   color: #fff; 
 }
- 
-  #sociala-medier{
-    display: flex;
-    margin-left: 15%;
-    gap: 10px;
-  }
 
-  /* Hover-effekt - funkar ej än */
-  .my-icon {
-    color: #000000; 
-    transition: color 0.3s; 
+#sociala-medier{
+  display: flex;
+  width: 50%;
+  gap: 10px;
+  justify-content: center;
+  border: purple 2px solid;
+  text-align: center;  
 }
-.my-icon:hover {
-    color: #ff0000; 
+#sociala-medier a {
+  text-decoration: none; 
 }
- 
+.my-icon {
+  /* font-size: 2em; */ /* ikonstorlek */
+}
+
 
  /* MediaQuary */
 @media screen and (max-width: 650px)
@@ -424,10 +416,6 @@ input[type="submit"]:hover {
     }
     
    }
-<<<<<<< HEAD
-=======
-  */
->>>>>>> 63a6cf3c022b94c1c272926da347d4e2bc706a74
 
 @media screen and (max-width: 650px) {
   .contactform {
@@ -456,7 +444,3 @@ input[type="submit"]:hover {
     padding: 3%;
   }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 63a6cf3c022b94c1c272926da347d4e2bc706a74
