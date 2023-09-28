@@ -332,7 +332,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #606060;
 }
-<<<<<<< HEAD
 
 /* footer */
 #kontakt{
@@ -361,44 +360,6 @@ input[type="submit"]:hover {
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px; 
-=======
-/*
-  footer{
-    display: flex;
-    background-color: #f4f4f4;
-    width: 100%;
-    padding: 1%;
-    
-  }
-
-  #kontakt{
-    border-right: black 1px solid;
-    width: 50%;
-  }
-
-  .ring-skriv-hitta{
-    padding: 1%;
-    font-size: xx-small;
-    font-family: 'Breilga', sans-serif; /* FUNKAR EJ MEN MÅSTE ÄNDRAS*/
-    margin-left: 15%;
-  }
-
-  #footerkontaktsida {
-    display: flex;
-    width: 100%;
-    justify-content:start;
-  }
-
- 
-  .button-link {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #3a3a3a;
-    color: #fff; 
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px; 
->>>>>>> 62333560e1bb27d08fab19ecf192575af7195fad
 }
 .button-link:active {
   background-color: #ff0000; 
@@ -455,10 +416,6 @@ input[type="submit"]:hover {
     }
     
    }
-<<<<<<< HEAD
-=======
-  */
->>>>>>> 62333560e1bb27d08fab19ecf192575af7195fad
 
 @media screen and (max-width: 650px) {
   .contactform {
