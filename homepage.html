@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <!-- minimerad CSS, dvs. utan radbrytningar, kommentarer o.dyl. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Bootstraps egen JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- stylesheet -->
     <link rel="stylesheet" href="homepage.css">
+    <!-- Fonter & Ikoner-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <title>homepage</title>  
+    <link href="https://fonts.cdnfonts.com/css/breilga" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a3efb24e9b.js" crossorigin="anonymous"></script>
+    <!-- Page-Ikon -->
+    <link rel="icon" href="foton/audi.png" type="image/vnd.microsoft.icon" />
+    <title>Homepage</title>  
 </head>
+
 <body>
     <section>
    <div class="menu">
@@ -17,7 +34,7 @@
         <li><a href="homepage.html">Hem</a></li>
         <li><a href="about.html">Om oss</a></li>
         <li><a href="contact.html">Kontakt</a></li>
-        <li><a href="produkter.html">Produkter</a></li>
+        <li><a href="products.html">Produkter</a></li>
         <div class="logo">
             <img src="foton/audi.png">
         </div>
@@ -52,45 +69,83 @@
     </section>
         <section>
             <div class="text">
-            <h1>BESTÄLL AV OSS</h1>
-             <p>Bläddra igenom Audi's modellutbud och välj den bil som bäst passar dina behov, preferenser och budget..</p>
+                <h1>BESTÄLL AV OSS</h1>
+                <p>Bläddra igenom Audi's modellutbud och välj den bil som bäst passar dina behov, preferenser och budget..</p>
             </div>
+
+            <!-- Måste lägg in alt texter på alla bilder -->
             <div class="box2">
-                <img src="foton/interior.jpg">
-                <img src="foton/details.jpg">
-                <img src="foton/details 2.jpg">
+                <img src="foton/interior.jpg" alt="">
+                <img src="foton/details.jpg" alt="">
+                <img src="foton/details2.jpg" alt="">
+                <img src="" alt="">
             </div>
+
+            <!-- Varför är det två divar här? -->
             <div class="box3">
                 <div class="text">
-                <h1>VÅRA BILAR</h1>
-               <div class="fordon">
-                <ul>
-                    <li><img src="foton/bild 4.png"></li>
-                    <li><img src="foton/bild 6.png"></li>
-                    <li><img src="foton/bild5.png"></li>
-                    <li><img src="foton/bild 7.png"></li>
-                    <li><img src="foton/bild 8.png"></li>
-                    <li><img src="foton/bild 4.png"></li>
-                    <li><img src="foton/bild5.png"></li>
-                    <li><img src="foton/bild 4.png"></li>
-                    <li><img src="foton/bild 8.png"></li>
-                    <!-- Testar en kommentar från collaborator -->
-                 </ul>
-                <div class="text2">
-                 <p>Audi erbjuder en imponerande mångfald av modeller som omfattar olika segment och behov.
-                 Från kompakta och eleganta Audi A3 till lyxiga Audi A8, finns det en modell för varje smak och livsstil. 
-                 </p> <br>
-                 <p>För den som föredrar sportiga upplevelser, erbjuder Audi sin ikoniska Audi TT och den kraftfulla 
-                 Audi RS-serien. För den växande SUV-marknaden erbjuder Audi populära modeller som Audi Q3, Audi Q5 
-                 och Audi Q7, som kombinerar stil med funktion. Audi e-tron-serien sätter standarden för elektrisk 
-                 mobilitet med e-tron och e-tron Sportback, medan Audi RS e-tron GT levererar elbilskraft med prestanda.
-                 Om du letar efter en kompakt stadsvagn finns Audi A1 och Audi A2, och för den äventyrliga själen erbjuder 
-                 Audi A4 Allroad Quattro robusthet och komfort. Oavsett vilka krav du har på din nästa bil, 
-                 har Audi en modell som passar dig med avancerad teknik, lyxig komfort och en passion för körning.</p>
-                 <a href="#">Läs mer!</a>
+                    <h1>VÅRA BILAR</h1>
                 </div>
-          </div>
-        </main>
-        </section>    
+            </div>
+
+            <div class="fordon">
+                <ul>
+                     <!-- Måste lägg in alt texter på alla bilder -->
+                    <li><img src="foton/bild4.png" alt=""></li>
+                    <li><img src="foton/bild6.png" alt=""></li>
+                    <li><img src="foton/bild5.png" alt=""></li>
+                    <li><img src="foton/bild7.png" alt=""></li>
+                    <li><img src="foton/bild8.png" alt=""></li>
+                    <li><img src="foton/bild4.png" alt=""></li>
+                    <li><img src="foton/bild5.png" alt=""></li>
+                    <li><img src="foton/bild4.png" alt=""></li>
+                    <li><img src="foton/bild8.png" alt=""></li>
+                    <!-- Ska det vara samma bilder flera gånger? eller har det blivit något fel? -->
+                </ul>
+            </div>
+        </section>
+
+        <div class="text2">
+            <p>
+                Audi erbjuder en imponerande mångfald av modeller som omfattar olika segment och behov.
+                Från kompakta och eleganta Audi A3 till lyxiga Audi A8, finns det en modell för varje smak och livsstil. 
+            </p> 
+            <br>
+            <p>
+                För den som föredrar sportiga upplevelser, erbjuder Audi sin ikoniska Audi TT och den kraftfulla 
+                Audi RS-serien. För den växande SUV-marknaden erbjuder Audi populära modeller som Audi Q3, Audi Q5 
+                och Audi Q7, som kombinerar stil med funktion. Audi e-tron-serien sätter standarden för elektrisk 
+                mobilitet med e-tron och e-tron Sportback, medan Audi RS e-tron GT levererar elbilskraft med prestanda.
+                Om du letar efter en kompakt stadsvagn finns Audi A1 och Audi A2, och för den äventyrliga själen erbjuder 
+                Audi A4 Allroad Quattro robusthet och komfort. Oavsett vilka krav du har på din nästa bil, 
+                har Audi en modell som passar dig med avancerad teknik, lyxig komfort och en passion för körning.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div id="kontakt">
+            <div>
+                <div class="ring-skriv-hitta">
+                    <i class="fa-solid fa-phone fa-2xl" style="color: #000000;"> Telefon nummer: 08-503 336 00 </i>
+                </div>
+                <div class="ring-skriv-hitta">
+                    <i class="fa-regular fa-envelope fa-2xl" style="color: #000000;"> Kontakta oss: <a class="button-link"  href="contact.html">Här</a></i>
+                </div>
+                <div class="ring-skriv-hitta">
+                    <i class="fa-solid fa-location-dot fa-2xl" style="color: #000000;"> Adress: <a class="button-link" href="Hitta-oss.html">Här hittar du oss</a></i>
+                </div>
+            </div>
+
+            <div id="sociala-medier">
+                <a href="https://sv-se.facebook.com/Audisverige/" target="_blank"><i class="fa-brands fa-facebook fa-2xl my-icon" style="color: #000000;"></i></a>
+                <a href="https://www.instagram.com/audisverige/" target="_blank"><i class="fa-brands fa-instagram fa-2xl my-icon" style="color: #000000;"></i></a>
+                <a href="https://twitter.com/AudiOfficial" target="_blank"><i class="fa-brands fa-x-twitter fa-2xl my-icon" style="color: #000000;"></i></a>
+                <a href="https://se.linkedin.com/company/audi-sverige" target="_blank"><i class="fa-brands fa-linkedin fa-2xl my-icon" style="color: #000000;"></i></a>
+                <a href="https://www.youtube.com/audi" target="_blank"><i class="fa-brands fa-youtube fa-2xl my-icon" style="color: #000000;"></i></a>
+                <a href="https://en.wikipedia.org/wiki/Audi" target="_blank"><i class="fa-brands fa-wikipedia-w fa-2xl my-icon" style="color: #000000;"></i></a>
+            </div>
+        </div>
+   </footer>  
 </body>
 </html>
