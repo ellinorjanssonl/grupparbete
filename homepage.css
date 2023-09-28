@@ -272,6 +272,87 @@ a {
   input[type="submit"]:hover {
     background-color: #606060;
   }
+  /* Produkter*/
+
+  #articles{
+    float: left;
+    width: 860px;
+    
+}
+
+#articles h2{
+    display: block;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    background:  white;
+    box-shadow: 0px 1px 0px #393d3f, 
+    1px 2px 0px #393d3f,
+    2px 3px 0px #393d3f,
+    3px 4px 0px #393d3f;
+    margin: 0px 220px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+     
+}
+li {
+    list-style: inside none;
+}
+#articles article{
+    width: 98%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin: 220px;
+    padding: 10px;
+    background: rgb(253, 249, 249);
+    color: black;
+    box-shadow: 1px 1px 2px #ddd;
+
+}
+
+#articles article  h4{
+    display: block;
+    font-size: 23px;
+    margin: 3px;
+}
+
+#articles  article h4 a{
+    text-decoration: none;
+    color: #00538c;
+}
+
+#articles  article h4 a:hover{
+    text-decoration: underline;
+}
+
+#articles .data{
+    float: right;
+    background: #393d3f;
+    color: white;
+    height: 20px;
+    line-height: 20px;
+    margin: -10px;
+    padding: 4px;
+    font-size: 13px;
+    border-radius: 0px 0px 0px 5px;
+
+}
+
+
+#articles .data span{
+    margin: 6px;
+
+}
+
+#articles article p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
 
   /* Footer */
 .contactform {
@@ -332,63 +413,62 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #606060;
 }
-/*
-  footer{
-    display: flex;
-    background-color: #f4f4f4;
-    width: 100%;
-    padding: 1%;
-    
-  }
 
-  #kontakt{
-    border-right: black 1px solid;
-    width: 50%;
-  }
-
-  .ring-skriv-hitta{
-    padding: 1%;
-    font-size: xx-small;
-    font-family: 'Breilga', sans-serif; /* FUNKAR EJ MEN MÅSTE ÄNDRAS*/
-    margin-left: 15%;
-  }
-
- 
-  .button-link {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #3a3a3a;
-    color: #fff; 
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px; 
+/* footer */
+#kontakt{
+  display: flex;
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 20vh;
+  
+  border: red 2px solid;
+} 
+#socialt{
+  /* display: flexbox; */
+  width: 50%;
+  border: black 1px solid;
+  border: green 2px solid;
 }
-
+.ring-skriv-hitta{
+  padding: 1%;
+  margin-left: 15%;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #3a3a3a;
+  color: #fff; 
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px; 
+}
 .button-link:active {
   background-color: #ff0000; 
   color: #fff; 
 }
-
 .button-link:hover {
-  background-color: #ff0000; 
+  background-color: gray; 
   color: #fff; 
+  text-decoration: none;
 }
- 
-  #sociala-medier{
-    display: flex;
-    margin-left: 15%;
-    gap: 10px;
-  }
 
-  /* Hover-effekt - funkar ej än */
-  .my-icon {
-    color: #000000; 
-    transition: color 0.3s; 
+#sociala-medier{
+  display: flex;
+  width: 50%;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;  
+}
+#sociala-medier a {
+  text-decoration: none; 
+}
+.my-icon {
+  color: #000000; 
+  transition: color 0.3s; 
 }
 .my-icon:hover {
-    color: #ff0000; 
+  color:gray; 
 }
- 
 
  /* MediaQuary */
 @media screen and (max-width: 650px)
@@ -420,7 +500,6 @@ input[type="submit"]:hover {
     }
     
    }
-  */
 
 @media screen and (max-width: 650px) {
   .contactform {
