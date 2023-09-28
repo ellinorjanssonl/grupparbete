@@ -413,38 +413,215 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #606060;
 }
+<<<<<<<<< Temporary merge branch 1
+/*
+  footer{
+    display: flex;
+    background-color: #f4f4f4;
+    width: 100%;
+    padding: 1%;
+    
+  }
+
+  #kontakt{
+    border-right: black 1px solid;
+    width: 50%;
+  }
+
+  .ring-skriv-hitta{
+    padding: 1%;
+    font-size: xx-small;
+    font-family: 'Breilga', sans-serif; /* FUNKAR EJ MEN MÅSTE ÄNDRAS*/
+    margin-left: 15%;
+  }
+
+ 
+  .button-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #3a3a3a;
+    color: #fff; 
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; 
+}
+
+.button-link:active {
+  background-color: #ff0000; 
+  color: #fff; 
+}
+
+.button-link:hover {
+  background-color: #ff0000; 
+  color: #fff; 
+}
+ 
+  #sociala-medier{
+    display: flex;
+    margin-left: 15%;
+    gap: 10px;
+  }
+
+  /* Hover-effekt - funkar ej än */
+  .my-icon {
+    color: #000000; 
+    transition: color 0.3s; 
+}
+.my-icon:hover {
+    color: #ff0000; 
+}
+ 
+
+ /* MediaQuary */
+@media screen and (max-width: 650px)
+   {
+    .contactform {
+      margin-top: 20%;
+      margin-left: 20%;
+      width: 100%;
+      max-width: 100%;
+      justify-content:center;
+      float: none;
+    }
+    #contactpic img{
+      display: none;
+    }
+    input[type="submit"] {
+      margin-top: 5%;
+      max-width: 30%;
+    }
+    input[type="submit"]:hover {
+      background-color: #939393;
+    }
+    label,
+    input,
+    textarea {
+      font-size: 15px;
+      font-weight: 900;
+      padding: 3%;
+    }
+    
+   }
+  */
+
+@media screen and (max-width: 650px) {
+  .contactform {
+    margin-top: 20%;
+    margin-left: 20%;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    float: none;
+  }
+  #contactpic img {
+    display: none;
+  }
+  input[type="submit"] {
+    margin-top: 5%;
+    max-width: 30%;
+  }
+  input[type="submit"]:hover {
+    background-color: #939393;
+  }
+  label,
+  input,
+  textarea {
+    font-size: 15px;
+    font-weight: 900;
+    padding: 3%;
+  }
+}
+    background-color: #606060;
+  }
+
+  /* Footer */
+.contactform {
+  background-size: cover;
+  margin-top: 5%;
+  margin-left: 10%;
+  float: left; /* Centrera horisontellt */
+  height: 100vh; /* Hela höjden på visningsområdet */
+  text-align: left;
+  width: 40%;
+}
+
+#contactpic img {
+  box-shadow: #3d3b3b 5px 5px 5px 5px;
+  border: 2px solid #3a3a3a;
+  margin-top: 7%;
+  border-radius: 20%;
+  margin-right: 10%;
+  float: right;
+  width: 40%;
+  height: 35%;
+  max-width: 40%;
+  align-content: flex-start;
+  opacity: 0.9;
+}
+
+label,
+input,
+textarea {
+  display: block; /* Göra elementen till block för att de ska staplas vertikalt */
+  margin-bottom: 15px; /* Lägg till lite mellanrum mellan fälten */
+  color: #000000;
+  font-size: 12px;
+  font-weight: 900;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+  border: 2px solid #3a3a3a;
+  width: 60%;
+  padding: 10px;
+  background-color: #dedede;
+}
+
+input[type="submit"] {
+  margin-top: 5%;
+  background-color: #dedede;
+  border: 2px solid #3a3a3a;
+  color: rgb(0, 0, 0);
+  width: 30%;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+input[type="submit"]:hover {
+  background-color: #606060;
+}
+=========
+>>>>>>>>> Temporary merge branch 2
 
 /* footer */
 #kontakt{
   display: flex;
   background-color: #f4f4f4;
   width: 100%;
-  height: 20vh;
-  
-  border: red 2px solid;
+  height: 25vh;
+  padding: 1%;
 } 
 #socialt{
-  /* display: flexbox; */
   width: 50%;
-  border: black 1px solid;
-  border: green 2px solid;
+  border-right: black 1px solid;
 }
 .ring-skriv-hitta{
   padding: 1%;
   margin-left: 15%;
 }
+.ring-skriv-hitta i span {
+  font-family: 'Breilga', sans-serif;
+}
 .button-link {
   display: inline-block;
-  padding: 10px 15px;
-  background-color: #3a3a3a;
-  color: #fff; 
+  padding: 2px 2px;
+  border: 1px #3a3a3a solid;
+  color: #606060; 
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px; 
-}
-.button-link:active {
-  background-color: #ff0000; 
-  color: #fff; 
 }
 .button-link:hover {
   background-color: gray; 
