@@ -23,23 +23,14 @@
     <script src="https://kit.fontawesome.com/a3efb24e9b.js" crossorigin="anonymous"></script>
     <!-- Page-Ikon -->
     <link rel="icon" href="foton/audi.png" type="image/vnd.microsoft.icon" />
+
+    <script src="MenuAndFooter.js"></script>
     <title>Hitta-oss</title>
   </head>
 
   <body>
-    <header>
-      <div class="menu">
-        <nav>
-          <ul>
-            <li><img id="logo" src="foton/audi.png" alt="Audi-logan" /></li>
-            <li><a href="homepage.html">Hem</a></li>
-            <li><a href="Hitta-oss.html">Hitta Hit</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
-            <li><a href="produkter.html">Produkter</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+  <!-- Meny (nav) kopplad till JavaScript-->
+  <div id="navbar-container"></div>
 
     <main>
       <section>
@@ -65,9 +56,6 @@
         <div class="google-maps">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2533.8100473509053!2d17.919275042120024!3d59.4204269114586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9f6c072648c1%3A0x9a8bbbddc3df4e88!2sAudi%20Center%20Kista!5e0!3m2!1ssv!2sse!4v1695720122680!5m2!1ssv!2sse"
-            width="600"
-            height="450"
-            style="border: 0"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
@@ -76,36 +64,8 @@
       </section>
     </main>
 
-    <footer>
-      <div id="kontakt">
-        <div id="socialt">
-            <!-- Har span på texten för att kunna ändra font-family -->
-            <div class="ring-skriv-hitta">
-                <i class="fa-solid fa-phone">  <span>Telefon nummer: 08-503 336 00 </span></i> 
-            </div>
-            <div class="ring-skriv-hitta">
-                <i class="fa-regular fa-envelope"> <span>Kontakta oss:</span> <a class="button-link"  href="contact.html">Här</a></i>
-            </div>
-            <div class="ring-skriv-hitta">
-                <i class="fa-solid fa-location-dot"> <span>Adress:</span> <a class="button-link" href="Hitta-oss.html">Här hittar du oss</a></i>
-            </div>
-        </div>
-
-        <div id="sociala-medier">
-            <a href="https://sv-se.facebook.com/Audisverige/" target="_blank"><i class="fa-brands fa-facebook fa-2xl my-icon"></i></a>
-
-            <a href="https://www.instagram.com/audisverige/" target="_blank"><i class="fa-brands fa-instagram fa-2xl my-icon"></i></a>
-
-            <a href="https://twitter.com/AudiOfficial" target="_blank"><i class="fa-brands fa-x-twitter fa-2xl my-icon"></i></a>
-
-            <a href="https://se.linkedin.com/company/audi-sverige" target="_blank"><i class="fa-brands fa-linkedin fa-2xl my-icon"></i></a>
-
-            <a href="https://www.youtube.com/audi" target="_blank"><i class="fa-brands fa-youtube fa-2xl my-icon"></i></a>
-
-            <a href="https://en.wikipedia.org/wiki/Audi" target="_blank"><i class="fa-brands fa-wikipedia-w fa-2xl my-icon"></i></a>
-        </div>
-      </div>
-    </footer> 
+     <!-- Footer kopplad till JavaScript-->
+     <div id="footer-container"></div>
 
   </body>
 </html>
