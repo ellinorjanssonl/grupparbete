@@ -33,6 +33,7 @@ header {
   opacity: 0.9;
 }
 
+/* h1 och h1 text kan man slå ihop */
 h1 {
   padding-top: 2%;
   padding-bottom: 2%;
@@ -59,16 +60,6 @@ h1 {
   padding-bottom: 3%;
   padding-top: 3%;
 }
-
-h2 {
-  color: #000000;
-  font-size: 20px;
-  text-align: center;
-  font-weight: bolder;
-  display: grid;
-  padding-bottom: 1%;
-}
-
 .box1 p {
   font-size: 16px;
   text-align: center;
@@ -82,12 +73,7 @@ h2 {
   font-weight: bold;
 }
 
-.box1 {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-}
+
 .box1 img {
   width: 100%;
   align-content: flex-start;
@@ -101,7 +87,7 @@ h2 {
   color: #000000;
 }
 
-
+/* box2 och box img kan läggas ihop?*/
 .box2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -121,6 +107,8 @@ h2 {
   transform: scale(1.5); /* Kan man få att bilden hovrar in mot sidan i stället för rakt ut, eftersom bilderna på sidorna gör att man inte ser hela bildern */
   transition: 0.4s;
 }
+
+
 .fordon ul {
   padding-top: 15%;
   width: 45%;
@@ -135,16 +123,18 @@ h2 {
   grid-gap: 70px 20px;
   list-style: none;
 }
+
+/* TROR fordon li och fordon img kan läggas ihop */
 .fordon li {
   float: left;
   width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
 }
-
 .fordon img {
   float: left;
   width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
   height: auto; /* Behåll bildens proportioner */
 }
+
 .fordon li:hover {
   transform: scale(1.9);
   transition: 0.3s;
@@ -175,7 +165,9 @@ h2 {
 }
 
 
+/* Kontaktsidan */
 
+/* Vad stå a för i kontakt sidan? */
 a {
   text-decoration: none;
   color: #241d1d;
@@ -242,8 +234,73 @@ a {
   input[type="submit"]:hover {
     background-color: #606060;
   }
-  /* Produkter*/
 
+
+
+ /*  Här är koden dubbel, samma som ovan (ner till produkter). Vilken vill du ha kvar? */
+
+      .contactform {
+        background-size: cover;
+        margin-top: 5%;
+        margin-left: 10%;
+        float: left; /* Centrera horisontellt */
+        height: 100vh; /* Hela höjden på visningsområdet */
+        text-align: left;
+        width: 40%;
+      }
+
+      #contactpic img {
+        box-shadow: #3d3b3b 5px 5px 5px 5px;
+        border: 2px solid #3a3a3a;
+        margin-top: 7%;
+        border-radius: 20%;
+        margin-right: 10%;
+        float: right;
+        width: 40%;
+        height: 35%;
+        max-width: 40%;
+        align-content: flex-start;
+        opacity: 0.9;
+      }
+
+      label,
+      input,
+      textarea {
+        display: block; /* Göra elementen till block för att de ska staplas vertikalt */
+        margin-bottom: 15px; /* Lägg till lite mellanrum mellan fälten */
+        color: #000000;
+        font-size: 12px;
+        font-weight: 900;
+        text-align: left;
+      }
+
+      input[type="text"],
+      input[type="tel"],
+      textarea {
+        border: 2px solid #3a3a3a;
+        width: 60%;
+        padding: 10px;
+        background-color: #dedede;
+      }
+
+      input[type="submit"] {
+        margin-top: 5%;
+        background-color: #dedede;
+        border: 2px solid #3a3a3a;
+        color: rgb(0, 0, 0);
+        width: 30%;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 12px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #606060;
+      }
+
+
+
+  /* Produkter*/
   #articles{
     float: left;
     width: 860px;
@@ -324,65 +381,6 @@ li {
 
 }
 
- 
-.contactform {
-  background-size: cover;
-  margin-top: 5%;
-  margin-left: 10%;
-  float: left; /* Centrera horisontellt */
-  height: 100vh; /* Hela höjden på visningsområdet */
-  text-align: left;
-  width: 40%;
-}
-
-#contactpic img {
-  box-shadow: #3d3b3b 5px 5px 5px 5px;
-  border: 2px solid #3a3a3a;
-  margin-top: 7%;
-  border-radius: 20%;
-  margin-right: 10%;
-  float: right;
-  width: 40%;
-  height: 35%;
-  max-width: 40%;
-  align-content: flex-start;
-  opacity: 0.9;
-}
-
-label,
-input,
-textarea {
-  display: block; /* Göra elementen till block för att de ska staplas vertikalt */
-  margin-bottom: 15px; /* Lägg till lite mellanrum mellan fälten */
-  color: #000000;
-  font-size: 12px;
-  font-weight: 900;
-  text-align: left;
-}
-
-input[type="text"],
-input[type="tel"],
-textarea {
-  border: 2px solid #3a3a3a;
-  width: 60%;
-  padding: 10px;
-  background-color: #dedede;
-}
-
-input[type="submit"] {
-  margin-top: 5%;
-  background-color: #dedede;
-  border: 2px solid #3a3a3a;
-  color: rgb(0, 0, 0);
-  width: 30%;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 12px;
-}
-
-input[type="submit"]:hover {
-  background-color: #606060;
-}
 
 /* Hitta oss sidan */
 .öppet-tider {
@@ -455,11 +453,13 @@ iframe{
   color: #606060; 
   text-decoration: none;
   font-weight: bold;
+  transition: transform 0.3s;
 }
 .button-link:hover {
   background-color: darkgray; 
   color: #fff; 
   text-decoration: none;
+  font-size: 1.0em;
 }
 
 #sociala-medier{
@@ -475,9 +475,11 @@ iframe{
 .my-icon {
   color: #000000; 
   transition: color 0.3s; 
+  transition: transform 0.3s;
 }
 .my-icon:hover {
   color:gray; 
+  transform: scale(1.3);
 }
 
  /* MediaQuary */
