@@ -422,10 +422,9 @@ iframe{
   height: 450px;
 }
 
-
-
-
-
+input[type="submit"]:hover {
+  background-color: #606060;
+}
 
 /* footer */
 #kontakt{
