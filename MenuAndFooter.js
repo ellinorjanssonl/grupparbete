@@ -26,3 +26,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   footerXhr.send();
 });
+
