@@ -1,12 +1,19 @@
-* {
+*{
   font-family: "Poppins", sans-serif;
   font-weight: lighter;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #ffffff;
+}
+
+/* ---------- Hem ---------- */
+/* Hamburgarmenyn */
+#navbar-burger {
+  display: none;
 }
 
 .menu ul li {
@@ -61,6 +68,7 @@ h2 {
   padding-bottom: 3%;
   padding-top: 3%;
 }
+
 .box1 p {
   font-size: 16px;
   text-align: center;
@@ -78,6 +86,7 @@ h2 {
   width: 100%;
   align-content: flex-start;
 }
+
 .text1 {
   width: 100%;
   text-align: center;
@@ -87,7 +96,6 @@ h2 {
   color: #000000;
 }
 
-/* box2 och box img kan läggas ihop?*/
 .box2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -103,29 +111,27 @@ h2 {
 }
 
 .box2 img:hover {
-  transform: scale(
-    1.5
-  ); /* Kan man få att bilden hovrar in mot sidan i stället för rakt ut, eftersom bilderna på sidorna gör att man inte ser hela bildern */
+  transform: scale(1.5);
   transition: 0.4s;
 }
 
 .fordon ul {
-  padding-top: 8%;
+  padding-top: 5%;
   width: 45%;
   float: left;
   margin-left: 5%;
   display: grid;
-  /* Dela upp i 3 kolumner med lika stor bredd */
+  /* Dela upp i 2 kolumner med lika stor bredd */
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 70px 20px;
   list-style: none;
 }
 
-/* TROR fordon li och fordon img kan läggas ihop */
 .fordon li {
   float: left;
   width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
 }
+
 .fordon img {
   float: left;
   width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
@@ -137,7 +143,6 @@ h2 {
   transition: 0.3s;
 }
 
-/* Kan kan sätta ihop text2 och text2 p? */
 .text2 {
   margin-right: 5%;
   padding-top: 7%;
@@ -159,7 +164,8 @@ h2 {
   color: #ffffff;
 }
 
-/* Kontaktsidan */
+
+/* ---------- Kontaktsidan ---------- */
 a {
   text-decoration: none;
   color: #241d1d;
@@ -232,7 +238,8 @@ input[type="submit"]:hover {
   margin-right: 22%;
 }
 
-/* Produkter*/
+
+/* ---------- Produkter ---------- */
 article {
   align-items: center;
   margin-top: 5%;
@@ -253,9 +260,11 @@ article {
   letter-spacing: 2px;
   box-shadow: 1px 1px 1px #434343;
 }
+
 li {
   list-style: inside none;
 }
+
 #articles article {
   display: block;
   width: 100%;
@@ -302,8 +311,8 @@ li {
   margin-bottom: 10px;
 }
 
-/* Hitta oss sidan */
 
+/* ---------- Hitta oss ---------- */
 .öppet-tider {
   text-align: center;
 }
@@ -325,9 +334,11 @@ li {
   background: transparent;
   text-align: center;
 }
+
 #var {
   text-align: center;
 }
+
 #p {
   text-align: center;
   margin: 6px;
@@ -348,7 +359,8 @@ input[type="submit"]:hover {
   background-color: #606060;
 }
 
-/* footer */
+
+/* ---------- footer ---------- */
 #kontakt {
   display: flex;
   background-color: #f4f4f4;
@@ -356,17 +368,21 @@ input[type="submit"]:hover {
   height: 21vh;
   padding: 1%;
 }
+
 #socialt {
   width: 50%;
   border-right: black 1px solid;
 }
+
 .ring-skriv-hitta {
   padding: 1%;
   margin-left: 15%;
 }
+
 .ring-skriv-hitta i span {
   font-family: "Breilga", sans-serif;
 }
+
 .button-link {
   display: inline-block;
   padding: 2px 2px;
@@ -376,6 +392,7 @@ input[type="submit"]:hover {
   font-weight: bold;
   transition: transform 0.3s;
 }
+
 .button-link:hover {
   background-color: darkgray;
   color: #fff;
@@ -390,28 +407,34 @@ input[type="submit"]:hover {
   justify-content: center;
   text-align: center;
 }
+
 #sociala-medier a {
   text-decoration: none;
 }
+
 .my-icon {
   color: #000000;
   transition: color 0.3s;
   transition: transform 0.3s;
 }
+
 .my-icon:hover {
   color: gray;
   transform: scale(1.3);
 }
 
-#navbar-burger {
-  display: none;
-}
 
-/* MediaQuary */
+/* ---------- MediaQuary ---------- */
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 990px) {
   #logo {
     display: none; /* Funkar ej */
+  }
+  #navbar {
+    display: none;
+  }
+  #navbar-burger {
+    display: block;
   }
   .logga img {
     width: 105%;
@@ -421,6 +444,7 @@ input[type="submit"]:hover {
     height: 50%;
   }
 }
+
 @media screen and (max-width: 850px) {
   .contactform {
     margin-top: 20%;
@@ -430,16 +454,20 @@ input[type="submit"]:hover {
     justify-content: center;
     float: none;
   }
+
   #contactpic img {
     display: none;
   }
+
   input[type="submit"] {
     margin-top: 5%;
     max-width: 30%;
   }
+
   input[type="submit"]:hover {
     background-color: #939393;
   }
+
   label,
   input,
   textarea {
@@ -447,6 +475,7 @@ input[type="submit"]:hover {
     font-weight: 900;
     padding: 3%;
   }
+
   .text2 {
     margin-right: 5%;
     padding-top: 7%;
@@ -473,6 +502,7 @@ input[type="submit"]:hover {
     float: none;
     width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
   }
+  
   .fordon img {
     float: none;
     width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
