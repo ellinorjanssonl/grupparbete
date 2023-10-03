@@ -457,10 +457,6 @@ input[type="submit"]:hover {
     }
     
    }
-<<<<<<< HEAD
-  
-=======
->>>>>>> d27dc60761bf3090af29ead94cc7781891057132
 
 @media screen and (max-width: 650px) {
   .contactform {
@@ -488,5 +484,4 @@ input[type="submit"]:hover {
     font-weight: 900;
     padding: 3%;
   }
-
-
+}
