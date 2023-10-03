@@ -110,14 +110,14 @@ h1 {
 
 
 .fordon ul {
-  padding-top: 15%;
+  padding-top: 8%;
   width: 45%;
   float: left;
   margin-left: 5%;
   display: grid;
    /* Dela upp i 3 kolumner med lika stor bredd */
   grid-template-columns: repeat(
-    3,
+    2,
     1fr
   );
   grid-gap: 70px 20px;
@@ -239,7 +239,7 @@ a {
   /* Produkter*/
   #articles{
     float: left;
-    width: 860px;
+    width: 70%;
     
 }
 
@@ -258,26 +258,23 @@ a {
     2px 3px 0px #393d3f,
     3px 4px 0px #393d3f;
     margin: 0px 220px;
-    margin-top: 20px;
-    margin-bottom: 15px;
      
 }
 li {
     list-style: inside none;
 }
 #articles article{
-    width: 98%;
+    width: 100%;
     height: auto;
     border: 1px solid #ccc;
-    margin: 220px;
+    margin: 25%;
     padding: 10px;
     background: rgb(253, 249, 249);
     color: black;
     box-shadow: 1px 1px 2px #ddd;
-
 }
 
-#articles article  h4{
+#articles article h4{
     display: block;
     font-size: 23px;
     margin: 3px;
@@ -285,7 +282,7 @@ li {
 
 #articles  article h4 a{
     text-decoration: none;
-    color: #00538c;
+  
 }
 
 #articles  article h4 a:hover{
@@ -304,7 +301,6 @@ li {
     border-radius: 0px 0px 0px 5px;
 
 }
-
 
 #articles .data span{
     margin: 6px;
@@ -430,7 +426,7 @@ input[type="submit"]:hover {
 }
 
 }
-@media screen and (max-width: 650px)
+@media screen and (max-width: 850px)
    {
     .contactform {
       margin-top: 20%;
@@ -457,34 +453,46 @@ input[type="submit"]:hover {
       font-weight: 900;
       padding: 3%;
     }
+    .text2 {
+      margin-right: 5%;
+      padding-top: 7%;
+      padding-bottom: 3%;
+      display: block;
+      float: none;
+      width: 100%;
+      font-size: 13px;
+      text-align: justify;
+      color: #ffffff;
+    }
+
+    .fordon ul {
+      padding-top: 8%;
+      padding-bottom: 10%;
+      width: 90%;
+      float: none;
+      display: grid;
+       /* Dela upp i 3 kolumner med lika stor bredd */
+      grid-template-columns: repeat(
+        2,
+        1fr
+      );
+    }
+    
+    .fordon li {
+      float: none;
+      width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
+    }
+    .fordon img {
+      float: none;
+      width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
+      height: auto; /* Behåll bildens proportioner */
+    }
+    
+    .fordon li:hover {
+      transform: scale(1.9);
+      transition: 0.3s;
+    }
     
    }
-
-@media screen and (max-width: 650px) {
-  .contactform {
-    margin-top: 20%;
-    margin-left: 20%;
-    width: 100%;
-    max-width: 100%;
-    justify-content: center;
-    float: none;
-  }
-  #contactpic img {
-    display: none;
-  }
-  input[type="submit"] {
-    margin-top: 5%;
-    max-width: 30%;
-  }
-  input[type="submit"]:hover {
-    background-color: #939393;
-  }
-  label,
-  input,
-  textarea {
-    font-size: 15px;
-    font-weight: 900;
-    padding: 3%;
-  }
-}
+  
 
