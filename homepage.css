@@ -169,8 +169,6 @@ h2 {
 
 
 /* Kontaktsidan */
-
-/* Vad stå a för i kontakt sidan? */
 a {
   text-decoration: none;
   color: #241d1d;
@@ -243,7 +241,7 @@ a {
   #articles{
     float: left;
     width: 70%;
-    
+ 
 }
 
 #articles h2{
