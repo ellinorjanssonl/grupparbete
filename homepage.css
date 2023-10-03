@@ -453,6 +453,45 @@ input[type="submit"]:hover {
       font-weight: 900;
       padding: 3%;
     }
+    .text2 {
+      margin-right: 5%;
+      padding-top: 7%;
+      padding-bottom: 3%;
+      display: block;
+      float: none;
+      width: 100%;
+      font-size: 13px;
+      text-align: justify;
+      color: #ffffff;
+    }
+
+    .fordon ul {
+      padding-top: 8%;
+      padding-bottom: 10%;
+      width: 90%;
+      float: none;
+      display: grid;
+       /* Dela upp i 3 kolumner med lika stor bredd */
+      grid-template-columns: repeat(
+        2,
+        1fr
+      );
+    }
+    
+    .fordon li {
+      float: none;
+      width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
+    }
+    .fordon img {
+      float: none;
+      width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
+      height: auto; /* Behåll bildens proportioner */
+    }
+    
+    .fordon li:hover {
+      transform: scale(1.9);
+      transition: 0.3s;
+    }
     
    }
   
