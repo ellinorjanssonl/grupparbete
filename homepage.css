@@ -21,7 +21,6 @@ body {
 #logo  {
   width: 50px;
   display: flex-box;
-
 }
 
 header {
@@ -33,8 +32,8 @@ header {
   opacity: 0.9;
 }
 
-/* h1 och h1 text kan man slå ihop */
-h1 {
+
+h2 {
   padding-top: 2%;
   padding-bottom: 2%;
   background-color: #f4f4f4;
@@ -42,6 +41,10 @@ h1 {
   font-size: 40px;
   text-align: center;
   font-weight: 500;
+}
+
+#info{
+  font-weight: bold;
 }
 
 .text h1 {
@@ -252,8 +255,7 @@ a {
     font-size: 40px;
     font-weight: normal;
     letter-spacing: 2px;
-/*     background:  white;
- */    box-shadow: 0px 1px 0px #393d3f, 
+    box-shadow: 0px 1px 0px #393d3f, 
     1px 2px 0px #393d3f,
     2px 3px 0px #393d3f,
     3px 4px 0px #393d3f;
@@ -267,9 +269,8 @@ li {
     width: 100%;
     height: auto;
     border: 1px solid #ccc;
-    margin: 25%;
-    padding: 10px;
-    background: rgb(253, 249, 249);
+    padding: 30px;
+    background: rgb(235, 235, 235);
     color: black;
     box-shadow: 1px 1px 2px #ddd;
 }
@@ -363,7 +364,7 @@ input[type="submit"]:hover {
   display: flex;
   background-color: #f4f4f4;
   width: 100%;
-  height: 20vh;
+  height: 21vh;
   padding: 1%;
 } 
 #socialt{

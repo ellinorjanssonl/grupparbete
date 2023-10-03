@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var menuXhr = new XMLHttpRequest();
   var footerXhr = new XMLHttpRequest();
   
+  /* Måste öppnas med live-server */
   // Ladda navigationsmenyn
   menuXhr.open("GET", "menu.html", true);
 
