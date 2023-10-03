@@ -240,12 +240,9 @@ a {
 
 
   /* Produkter*/
-.clearfix {
- align-items: center;
-}
- #articles{
-    display: block;
-    width: 860px;
+  #articles{
+    float: left;
+    width: 70%;
     
 }
 
@@ -272,7 +269,7 @@ li {
     width: 100%;
     height: auto;
     border: 1px solid #ccc;
-    margin: 220px;
+    margin: 25%;
     padding: 10px;
     background: rgb(253, 249, 249);
     color: black;
@@ -458,46 +455,38 @@ input[type="submit"]:hover {
       font-weight: 900;
       padding: 3%;
     }
-
-    .fordon{
-      float: none;
-      width: 100%;
-    }
-
-    .text2{
-      float: none;
-      width: 100%;
-      padding-top: 5%;
-      padding-bottom: 10%;
-    }
-
-    .fordon ul {
-      padding-top: 5%;
-      width: 95%;
-      float: none;
-      display: grid;
-      grid-template-columns: repeat(
-        2,
-        1fr
-      );
-    }
-    
-    .fordon li {
-      float: none;
-      display: flex;
-      width: 100%; 
-    }
-    .fordon img {
-      float: none;
-      display: flex;
-      width: 100%; /* Fyll ut hela utrymmet i sina respektive kolumner */
-    }
-    
-    .fordon li:hover {
-      transform: scale(1.9);
-      transition: 0.3s;
-    }
     
    }
+<<<<<<< HEAD
+  
+=======
+>>>>>>> d27dc60761bf3090af29ead94cc7781891057132
+
+@media screen and (max-width: 650px) {
+  .contactform {
+    margin-top: 20%;
+    margin-left: 20%;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    float: none;
+  }
+  #contactpic img {
+    display: none;
+  }
+  input[type="submit"] {
+    margin-top: 5%;
+    max-width: 30%;
+  }
+  input[type="submit"]:hover {
+    background-color: #939393;
+  }
+  label,
+  input,
+  textarea {
+    font-size: 15px;
+    font-weight: 900;
+    padding: 3%;
+  }
 
 
