@@ -3,100 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <!-- minimerad CSS, dvs. utan radbrytningar, kommentarer o.dyl. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Bootstraps egen JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- stylesheet -->
     <link rel="stylesheet" href="homepage.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
     <!-- Fonter & Ikoner-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/breilga" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a3efb24e9b.js" crossorigin="anonymous"></script>
     <!-- Page-Ikon -->
     <link rel="icon" href="foton/audi.png" type="image/vnd.microsoft.icon" />
-    <title>kontakt</title>  
+    <!-- Valt att göra en egen style här för aatt det är det är unikt för den här sidan  --> 
     <style> 
     #färg {
         background-color: #787878;
     }
+    #kontakt{
+        background-color: #ffffff;
+    }
+    .ring-skriv-hitta i span{
+        color:#787878 ;
+    }
+    .my-icon {
+        color: #787878;
+    }
+    .my-icon:hover {
+        color:#2c2c2c;
+    }
     </style>
+
+    <script src="MenuAndFooter.js"></script>
+    <title>Kontakt</title>
 </head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<!-- Bootstraps egen JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <body id="färg"> 
- <section>
-   <div class="menu">
-    <nav>
-      <ul>
-         <li><img id="logo" src="foton/audi.png" alt="Audi-logan"></li>
-         <li><a href="homepage.html">Hem</a></li>
-         <li><a href="Hitta-oss.html">Hitta Hit</a></li>
-         <li><a href="contact.html">Kontakt</a></li>
-         <li><a href="produkter.html">Produkter</a></li>
-      </ul>
-     </nav>
-     </div>
-    </div>
-<header>
-    </div>
- </header>
- <section>
+
+    <!-- Meny (nav) kopplad till JavaScript-->
+    <div id="navbar-container"></div>
+
     <main>
         <div class="contactform">
-      <form action="process_contact.php" method="POST">
-        <label for="name">Namn:</label>
-        <input type="text" id="name" name="name" required>
+            <form action="mailto:zinix-@hotmail.com" method="post" enctype="text/plain">
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="address">Adress:</label>
+                <input type="text" id="address" name="address" required>
+                
+                <label for="phone">Telefonnummer:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="comment">Kommentar:</label>
+                <textarea id="comment" name="comment" rows="4"></textarea>
+                
+                <input type="submit" value="Skicka">
+            </form>
+        </div>    
         
-        <label for="address">Adress:</label>
-        <input type="text" id="address" name="address">
-        
-        <label for="phone">Telefonnummer:</label>
-        <input type="tel" id="phone" name="phone">
-        
-        <label for="comment">Kommentar:</label>
-        <textarea id="comment" name="comment" rows="4"></textarea>
-        
-        <input type="submit" value="Skicka">
-    </div>
-    <div>
         <div id="contactpic">
-        <img src="foton/kontakta.jpg" alt="details">
+            <img src="foton/kontakta.jpg" alt="En kvinnlig hand som håller i en mobiltelefon i en bil">
         </div>
-    </div>
-      </form>
-    </section>
     </main>
-  
-  <footer>
-    <div id="kontakt">
-        <div>
-            <div class="ring-skriv-hitta">
-                <i class="fa-solid fa-phone fa-2xl" style="color: #000000;"> Telefon nummer: 08-503 336 00 </i>
-            </div>
-            <div class="ring-skriv-hitta">
-                <i class="fa-regular fa-envelope fa-2xl" style="color: #000000;"> Kontakta oss: <a class="button-link"  href="contact.html">Här</a></i>
-            </div>
-            <div class="ring-skriv-hitta">
-                <i class="fa-solid fa-location-dot fa-2xl" style="color: #000000;"> Adress: <a class="button-link" href="Hitta-oss.html">Här hittar du oss</a></i>
-            </div>
-        </div>
-
-        <div id="sociala-medier">
-            <a href="https://sv-se.facebook.com/Audisverige/" target="_blank"><i class="fa-brands fa-facebook fa-2xl my-icon" style="color: #000000;"></i></a>
-            <a href="https://www.instagram.com/audisverige/" target="_blank"><i class="fa-brands fa-instagram fa-2xl my-icon" style="color: #000000;"></i></a>
-            <a href="https://twitter.com/AudiOfficial" target="_blank"><i class="fa-brands fa-x-twitter fa-2xl my-icon" style="color: #000000;"></i></a>
-            <a href="https://se.linkedin.com/company/audi-sverige" target="_blank"><i class="fa-brands fa-linkedin fa-2xl my-icon" style="color: #000000;"></i></a>
-            <a href="https://www.youtube.com/audi" target="_blank"><i class="fa-brands fa-youtube fa-2xl my-icon" style="color: #000000;"></i></a>
-            <a href="https://en.wikipedia.org/wiki/Audi" target="_blank"><i class="fa-brands fa-wikipedia-w fa-2xl my-icon" style="color: #000000;"></i></a>
-        </div>
-    </div>
-</footer>  
+    
+    <!-- Footer kopplad till JavaScript-->
+    <div id="footer-container"></div>
 
 </body>
 </html>
