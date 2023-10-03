@@ -33,25 +33,30 @@ iframe {
 }
 /* ändrat storlek och position på bilden */
 .logga img {
-  position: sticky;
   top: 0;
   opacity: 0.8;
-  width: 100vw;
-  height: 40vh;
-  max-width: 100%;
+  width: 100%;
 } /* media Queries */
-@media screen and (767px) {
+
+@media screen and (844px) {
   section {
     text-align: center;
     justify-content: center;
   }
-  .logga {
-    max-width: 100%;
-  }
-  .menu ul {
-    display: flex;
-    justify-content: space-around;
-  }
+}
+.logga img {
+  width: 100%;
+  height: 40%;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+h4 {
+  text-align: center;
+}
+#p {
+  text-align: center;
 }
 @media screen and (1180px) {
   .google-maps {
@@ -61,8 +66,4 @@ iframe {
 }
 iframe {
   align-items: center;
-}
-.logga {
-  width: 100%;
-  max-width: 100%;
 }
