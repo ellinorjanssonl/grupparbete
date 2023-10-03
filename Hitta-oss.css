@@ -1,0 +1,68 @@
+h1 {
+  margin: 1%; /* stylat rubriken */
+  background: transparent;
+}
+h4 {
+  text-align: center; /* centrerat h4 */
+}
+p {
+  text-align: center;
+  margin: 6%; /* mellanrum mellan kartan och adressen */
+}
+.öppet-tider {
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px; /* storlek på texten */
+}
+.opening {
+  text-align: center;
+  margin-bottom: 6%; /* avståndet mellan öppettider och rubriken */
+}
+iframe {
+  border: 1px solid black; /* border runt google maps */
+}
+/* ändrat posistion och storlek på google maps */
+.google-maps {
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  margin-left: 30%;
+  max-width: 50%;
+}
+/* ändrat storlek och position på bilden */
+.logga img {
+  position: sticky;
+  top: 0;
+  opacity: 0.8;
+  width: 100vw;
+  height: 40vh;
+  max-width: 100%;
+} /* media Queries */
+@media screen and (767px) {
+  section {
+    text-align: center;
+    justify-content: center;
+  }
+  .logga {
+    max-width: 100%;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (1180px) {
+  .google-maps {
+    text-align: center;
+    justify-content: center;
+  }
+}
+iframe {
+  align-items: center;
+}
+.logga {
+  width: 100%;
+  max-width: 100%;
+}
