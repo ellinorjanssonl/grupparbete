@@ -306,7 +306,7 @@ li {
     width: 98%;
     height: auto;
     border: 1px solid #ccc;
-    margin: 220px;
+    margin: 25%;
     padding: 10px;
     background: rgb(253, 249, 249);
     color: black;
@@ -501,7 +501,7 @@ input[type="submit"]:hover {
     }
     
    }
-  */
+  
 
 @media screen and (max-width: 650px) {
   .contactform {
