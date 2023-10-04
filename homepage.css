@@ -486,4 +486,17 @@ iframe {
     transform: scale(1.9);
     transition: 0.3s;
   }
+  article{
+    width: 100%;
+  }
+  #articles {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  #articles article h4 {
+    display: block;
+    font-size: 23px;
+    margin-top: 13px;
+  }
+
 }
