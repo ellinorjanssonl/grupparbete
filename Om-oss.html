@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <!-- minimerad CSS, dvs. utan radbrytningar, kommentarer o.dyl. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Bootstraps egen JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- stylesheet -->
     <link rel="stylesheet" href="homepage.css">
+    <!-- Fonter & Ikoner-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="omoss.css">
-    <title>homepage</title>  
+    <link href="https://fonts.cdnfonts.com/css/breilga" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a3efb24e9b.js" crossorigin="anonymous"></script>
+    <!-- Page-Ikon -->
+    <link rel="icon" href="foton/audi.png" type="image/png" />
+
+    <script src="MenuAndFooter.js"></script>
+    <title>Om Oss</title>  
 </head>
+<!-- Måste öppnas med live-server för att kunna visa nav-meny och footer -->
 <body>
+    <!-- Meny (nav) kopplad till JavaScript-->
+    <div id="navbar-container"></div>
+
     <h1>välkommen</h1>
         <div>
             <img src="img/first car.jpg" alt="first audi car">
@@ -18,10 +39,8 @@
      <h2> Audi är ett tyskt bilmärke med huvudkontor i Ingolstadt, Tyskland. Audi är sedan 1965 ett dotterbolag till Volkswagen AG. Audi tillverkar sina fordon i nio produktionsanläggningar världen över. Audi är det latinska ordet för att höra. Eftersom de flesta av oss har mer skoltyska än latinstudier i bagaget är möjligen även verbet ”horch” bekant. Det betyder alltså lyssna på tyska. Kanske verkar det här resonemanget över måttan vimsigt, men det finns ett spikrakt samband: den tyske ingenjören August Horch. </h2>
 
 
-
-
-</body>
-
-
+<!-- Footer kopplad till JavaScript-->
+<div id="footer-container"></div>
 
 </body>
+</html>

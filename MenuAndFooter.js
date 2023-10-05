@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var footerXhr = new XMLHttpRequest();
   
   /* Måste öppnas med live-server */
-  // Ladda navigationsmenyn
+  /* Laddar nav-menyn */
   menuXhr.open("GET", "menu.html", true);
 
   menuXhr.onload = function () {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   menuXhr.send();
 
-  // Ladda footern
+  /* Laddar footern */
   footerXhr.open("GET", "footer.html", true);
 
   footerXhr.onload = function () {
@@ -26,5 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   footerXhr.send();
+  
 });
 
