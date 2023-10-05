@@ -121,6 +121,10 @@ h2 {
 }
 
 .fordon ul {
+	margin-bottom: 5%;
+}
+
+.fordon ul {
 	padding-top: 5%;
 	width: 45%;
 	float: left;
@@ -144,6 +148,12 @@ h2 {
 
 .fordon li:hover {
 	transform: scale(1.9);
+	transition: 0.3s;
+}
+
+/* För att bilarna till vänster inte ska hovras utanför sidan */
+.fordon li .Audi1:hover {
+	transform: translate(20%);
 	transition: 0.3s;
 }
 
