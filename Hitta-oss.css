@@ -1,5 +1,5 @@
 h1 {
-  margin: 1%; /* stylat rubriken */
+  margin: 1%; /* avståndet mellan rubrik och meny */
   background: transparent;
 }
 .hitta-oss {
@@ -7,7 +7,7 @@ h1 {
   justify-content: center;
 }
 h4 {
-  text-align: center; /* centrerat h4 */
+  text-align: center;
 }
 p {
   text-align: center;

@@ -315,14 +315,14 @@ li {
 }
 
 .logga img {
-  position: sticky;
   top: 0;
   opacity: 0.8;
   width: 100%;
   height: 50%;
 }
 
-.öppet-hitta {
+.hitta-oss {
+  /* stylade och positionerade  rubriken  */
   margin: 1%;
   background: transparent;
   text-align: center;
@@ -332,7 +332,7 @@ li {
 }
 #p {
   text-align: center;
-  margin: 6px;
+  margin: 6px; /* la 6px för ville ha avstånd från google-maps */
 }
 
 .google-maps {
@@ -341,9 +341,10 @@ li {
 }
 
 iframe {
+  /* stylade google-maps */
   border: 2px solid black;
   width: 70%;
-  height: 50%;
+  height: 50vh;
 }
 
 input[type="submit"]:hover {
