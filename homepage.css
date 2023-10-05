@@ -306,7 +306,7 @@ article {
   height: 50%;
 }
 
-.öppet-hitta {
+.hitta-oss {
   margin-top: 1%;
   background: transparent;
   text-align: center;
@@ -329,6 +329,7 @@ article {
 iframe {
   border: 2px solid black;
   width: 70%;
+  height: 40vh;
 }
 
 /* ---------- footer ---------- */
