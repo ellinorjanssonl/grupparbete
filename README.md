@@ -10,7 +10,7 @@ Vi ville göra sidan relativt enkel och inte för invecklad och därför har vi 
 
 Business Case
 
-Vad gör företaget?:
+Vad gör företaget?
 
 - Vi säljer audibilar och visar upp de utbud vi har i vår audibutik lokaliserad i Kista. Vi har ett fåtal produkter som man kan läsa om och se detaljerad information kring, så som pris, modell, färg och form. På vår hemsida kan man få hjälp att hitta till våra lokaler i kista, kontaka företaget via ett formullär, få tillgång till sociala medier, telefonnummer och mail. Vi vill med hjälp av vår hemsida ge kunder möjlighet att visuelt se vårt utbud utan att behöva ta sig till vår bilfirma.
 
