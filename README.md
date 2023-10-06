@@ -19,11 +19,12 @@ Vilka är kunderna?:
 - Kunderna i vårt fall är de som är intresserade av att köpa en av de nyaste bilar som finns tillgängliga på marknaden just nu. Man får bilder med detaljer och information om själva bilarna som säljs. Våra kunderna är de som är intreserade av våra Audi bilar och möjlitvis kan ha övriga frågor till företaget eller bara undrar någonting.
 
 Vad kommunicerar företaget till sina kunder via webbsidan?
-1: Vad Audi är för bilföretag
-2: Ger information kring audi som företag
-3: Ger kunder möjlighet att kunna se vårt utbud av bilar på ett enkelt sätt
-4: Ger kunderna information om sociala medier, kontaktinformation och lokalisering av företaget.
-5: Visuelt representera det som erbjuds med bilder, detaljer och priser.
+
+- 1: Vad Audi är för bilföretag
+- 2: Ger information kring audi som företag
+- 3: Ger kunder möjlighet att kunna se vårt utbud av bilar på ett enkelt sätt
+- 4: Ger kunderna information om sociala medier, kontaktinformation och lokalisering av företaget.
+- 5: Visuelt representera det som erbjuds med bilder, detaljer och priser.
 
 Vad behöver kunderna kommunicera till företaget via webbsidan?
 
