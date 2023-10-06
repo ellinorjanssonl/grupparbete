@@ -461,6 +461,10 @@ iframe {
 		height: 20vh;
 	}
 
+	.fordon {
+		margin: 3%;
+	}
+
 	.fordon ul {
 		display: grid;
 		float: none;
@@ -505,6 +509,11 @@ iframe {
 		margin-left: 1%;
 	}
 
+	/* Hitta-oss-sidan  */
+	iframe {
+		width: 90%;
+	}
+
 	/* Footer */
 	#kontakt {
 		display: block;
@@ -514,7 +523,7 @@ iframe {
 	#socialt {
 		border-right: none;
 		border-bottom: black 1px solid;
-		width: 100%;
+		width: 90%;
 		margin-left: 5%;
 		padding-bottom: 5%;
 	}
