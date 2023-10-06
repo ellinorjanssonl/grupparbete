@@ -298,7 +298,8 @@ article {
 }
 
 /* ---------- Hitta oss ---------- */
-.öppet-tider {
+.öppet-tider,
+.hitta-oss {
 	text-align: center;
 	margin-top: 1%;
 }
@@ -316,19 +317,9 @@ article {
 	height: 50%;
 }
 
-.hitta-oss {
-	margin-top: 1%;
-	background: transparent;
-	text-align: center;
-}
-
-#var {
-	text-align: center;
-}
-
+#var,
 #p {
 	text-align: center;
-	margin: 6px;
 }
 
 .google-maps {
